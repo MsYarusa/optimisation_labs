@@ -135,7 +135,7 @@ def golden_ratio_method(equation, segment, epsilon):
 
 # ОТРИСОВКА ГРАФИКА ЗАВИСИМОСТЕЙ
 def draw_comparing_plot(equation, segment):
-    epsilon_values = 1 / (5 ** np.arange(20))
+    epsilon_values = 0.1 / (5 ** np.arange(20))
     dichotomy_steps_values = []
     golden_ratio_steps_values = []
 
